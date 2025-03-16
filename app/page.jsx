@@ -1,8 +1,16 @@
+import Hero from "@/components/Hero";
+import HomeProperties from "@/components/HomeProperties";
+import InfoBoxes from "@/components/InfoBoxes";
+import FeaturedProperties from "@/components/FeaturedProperties";
+
 const HomePage = () => {
   return (
-    <div className="text-2xl">
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes />
+      <FeaturedProperties />
+      <HomeProperties />
+    </>
   );
 };
 
