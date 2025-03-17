@@ -24,7 +24,7 @@ const FeaturedPropertyCard = ({ property }) => {
   return (
     <div
       key={property._id}
-      className="bg-white rounded-xl shadow-md relative flex flex-col md:flex-col lg:flex-row"
+      className="bg-cyan-200 rounded-xl shadow-md relative flex flex-col md:flex-col lg:flex-row"
     >
       <Image
         src={property.images[0]}
